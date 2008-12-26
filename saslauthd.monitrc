@@ -1,6 +1,6 @@
 check process saslauthd with pidfile /var/lib/sasl2/saslauthd.pid
 	group mail
-	start program = "/etc/rc.d/init.d/saslauthd start"
+	start program = "/etc/rc.d/init.d/saslauthd restart"
 	stop  program = "/etc/rc.d/init.d/saslauthd stop"
 	if failed unix /var/lib/sasl2/mux then restart
 	if 5 restarts within 5 cycles then timeout
