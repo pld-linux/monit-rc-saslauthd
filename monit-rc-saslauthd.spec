@@ -1,5 +1,5 @@
 Summary:	monitrc file for monitoring SASL authentication server
-Summary(pl.UTF-8):	Plik monitrc do monitorowania serwera autentykacji SASL
+Summary(pl.UTF-8):	Plik monitrc do monitorowania serwera uwierzytelniania SASL
 Name:		monit-rc-saslauthd
 Version:	1
 Release:	1
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 monitrc file for monitoring Cyrus SASL authentication server.
 
 %description -l pl.UTF-8
-Plik monitrc do monitorowania serwera autentykacji Cyrus SASL.
+Plik monitrc do monitorowania serwera uwierzytelniania Cyrus SASL.
 
 %prep
 
