@@ -2,7 +2,7 @@ Summary:	monitrc file for monitoring SASL authentication server
 Summary(pl.UTF-8):	Plik monitrc do monitorowania serwera uwierzytelniania SASL
 Name:		monit-rc-saslauthd
 Version:	1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/System
 Source0:	saslauthd.monitrc
